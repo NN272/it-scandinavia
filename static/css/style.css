@@ -103,7 +103,7 @@ body {
   position: relative;
   background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/bg.png);
   background-size: cover;
-  top: -400px;
+  top: -350px;
   height: 850px;
   background-repeat: no-repeat;
 }
@@ -113,6 +113,23 @@ body {
   background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/river.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.group {
+  position: relative;
+  top: 250px;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  font-family: 'Signika', sans-serif;
+}
+
+.group-list {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 300px;
 }
 
 .field {

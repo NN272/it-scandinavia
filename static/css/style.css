@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper section {
+  width: 100%;
+  min-height: 850px;
+  /* font-family: 'Alatsi', sans-serif; */
+  font-family: 'Lato', sans-serif;
+}
+
+.journey {
+  color: #1D4988;
+  font-size: 36px;
+}
+
+.journey-block {
+  display: block;
+  position: relative;
+  top: 500px;
+}
+
+.txt {
+  color: #1D4988;
+  font-size: 18px;
+  width: 800px;
+}
+
+.wave {
+  font-family: 'Signika', sans-serif;
+  position: relative;
+  background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/Avtobusnyj-tur-po-Skandinavii-iz-Minska-Skandinaviya-s-poseshheniem-Norvezhskih-Fordov-3.png);
+  background-size: cover;
+  height: 1000px;
+  background-repeat: no-repeat;
+}
+
+.wave2 {
+  font-family: 'Signika', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/clouds.png);
+  top: -600px;
+  height: 1100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.get-on-road {
+  color: #1D4988;
+  font-size: 36px;
+}
+
+.wave3 {
+  font-family: 'Signika', sans-serif;
+  opacity: 0.98;
+  position: relative;
+  background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/shape2.png);
+  background-size: cover;
+  top: -770px;
+  height: 1000px;
+  background-repeat: no-repeat;
+}
+
+.shape {
+  position: relative;
+  background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/bg.png);
+  background-size: cover;
+  top: -400px;
+  height: 850px;
+  background-repeat: no-repeat;
+}
+
+.farm {
+  position: absolute;
+  background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/river.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.field {
+  position: absolute;
+  background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/ukrmountains.png);
+  background-size: cover;
+}
+
+.numbers-list {
+  list-style-type: none;
+}
+
+.list {
+  margin-block-start: 0em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.next {
+  font-size: 16px;
+  height: 50px;
+  width: 200px;
+  margin-left: 100px;
+  border-radius: 100px;
+}
+
+.move {
+  margin-top: -40px;
+}
+
+.block {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 32px;
+  margin-top: 70px;
+}
+
+.list li {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-block {
+  width: 800px;
+}
+
+header {
+  display: grid;
+  justify-content: center;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+}

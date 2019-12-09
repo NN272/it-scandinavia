@@ -24,6 +24,30 @@ body {
   top: 500px;
 }
 
+.carpathians {
+  font-size: 24px;
+  color: #1D4988;
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+
+.mountain {
+  font-size: 24px;
+  color: #1D4988;
+  position: relative;
+  top: 230px;
+  text-align: center;
+}
+
+.bright-moments {
+  font-size: 36px;
+  color: #1D4988;
+  text-align: center;
+  position: relative;
+  top: 210px;
+}
+
 .txt {
   color: #1D4988;
   font-size: 18px;
@@ -104,8 +128,21 @@ body {
   background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/bg.png);
   background-size: cover;
   top: -350px;
-  height: 850px;
+  height: 1050px;
   background-repeat: no-repeat;
+}
+
+.footer-list {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+footer {
+  position: relative;
+  top: 87%;
+  height: 100px;
 }
 
 .farm {
@@ -136,6 +173,7 @@ body {
   position: absolute;
   background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/ukrmountains.png);
   background-size: cover;
+  height: 1100px;
 }
 
 .numbers-list {
@@ -158,8 +196,37 @@ body {
   border-radius: 100px;
 }
 
+.footer-logos {
+  margin-top: 25px;
+}
+
+.linkedin {
+  width: 40px;
+  height: 40px;
+}
+
+.twitter {
+  margin-left: 10px;
+  width: 50px;
+  height: 40px;
+}
+
+.footer-next {
+  font-size: 16px;
+  height: 50px;
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+
 .move {
   margin-top: -40px;
+}
+
+.facebook {
+  margin-left: 10px;
+  height: 40px;
+  width: 25px;
 }
 
 .block {

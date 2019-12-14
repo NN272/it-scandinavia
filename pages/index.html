@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <title>Document</title>
 </head>
 <body>
@@ -177,8 +179,46 @@
       <div class="mountain-block">
         <h4 class="carpathians">Карпати</h4>
         <h4 class="mountain">Говерла 2019.</h4>
-      </div>  
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image:url(../static/images/mount.png); width: 400px; height: 300px;"></div>
+          <div class="swiper-slide" style="background-image:url(../static/images/stokgolm.jpg); width: 400px; height: 300px;"></div>
+          <div class="swiper-slide" style="background-image:url(../static/images/nature.jpg); width: 400px; height: 300px;"></div>
+          <div class="swiper-slide" style="background-image:url(../static/images/pexels-photo-713081.jpeg); width: 400px; height: 300px;"></div>
+          <div class="swiper-slide" style="background-image:url(../static/images/62c5ac203d7cb401f3ddd5bfd263abd3.jpg); width: 400px; height: 300px;"></div>
+          <div class="swiper-slide" style="background-image:url(../static/images/43ed916da71c.jpg); width: 400px; height: 300px;"></div>
+          <div class="swiper-slide" style="background-image:url(../static/images/karpaty_kryvorivnya.jpg); width: 400px; height: 300px;"></div>
+          <div class="swiper-slide" style="background-image:url(../static/images/DSC00751.jpg); width: 400px; height: 300px;"></div>
+          <div class="swiper-slide" style="background-image:url(../static/images/810328657.jpg); width: 400px; height: 300px;"></div>
+          <div class="swiper-slide" style="background-image:url(../static/images/DSC00790.jpg); width: 400px; height: 300px;"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+       </div>
     </section>
   </div>
+
+  <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
 </body>
 </html>

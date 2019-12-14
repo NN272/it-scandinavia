@@ -110,6 +110,29 @@ body {
   font-size: 24px;
 }
 
+.fl-container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 15px;
+  left: 90px;
+  width: 1200px;
+}
+
+.fl-container .item {
+  width: 270px;
+}
+
+.fl-container .item:nth-child(2n) {
+  position: relative;
+  left: -30px;
+}
+
+.fl-container .item:nth-child(1n) {
+  position: relative;
+  left: -50px;
+}
+
 .wave3 {
   font-family: 'Signika', sans-serif;
   opacity: 0.98;
@@ -127,7 +150,7 @@ body {
   position: relative;
   background: url(/Users/ivandiakov/Documents/Projects/wavy/static/images/bg.png);
   background-size: cover;
-  top: -350px;
+  top: -370px;
   height: 1050px;
   background-repeat: no-repeat;
 }

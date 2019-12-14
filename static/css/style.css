@@ -275,9 +275,47 @@ header {
   justify-content: center;
 }
 
+.logo1 {
+  width: 85px;
+  height: 60px;
+}
+
+.doc-logo {
+  width: 67px;
+  height: 60px;
+}
+
+.numbers-list {
+  position: relative;
+  left: -50px;
+}
+
+.bath-logo {
+  width: 65px;
+  height: 60px;
+}
+
 .logo {
-  width: 100px;
-  height: 80px;
+  width: 75px;
+  height: 60px;
+}
+
+.clothes-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.saving-logo {
+  height: 60px;
+}
+
+.logo2 {
+  width: 60px;
+  height: 60px;
+}
+
+.equipment-logo {
+  width: 60px;
 }
 
 .swiper-container {
